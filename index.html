@@ -10,14 +10,16 @@
     <script>
 
         alert("Please calculate V volume with given formula V = r2 * π * H");
-
-        let r2 = prompt (r * r);
-        let r = 7;
-        let r = 3;
+        
+        
+            var r2 = r * r;
+            var r = prompt ("Please enter r value");
+            var r2 = parseInt(r) * parseInt(r);
+            alert ("r2 is:" + r2);
+        
         const π = "3.14";
+        alert ("π is" + π)
         var H = prompt("Please enter H value");
-
-       
         var value = parseInt(r2) * parseInt(π) * parseInt (H);
 
         alert("V volume is: " + value);
